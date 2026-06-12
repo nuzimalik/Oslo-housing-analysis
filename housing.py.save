@@ -1,0 +1,29 @@
+import pandas as pd
+
+data = {
+    "Area": ["Oslo", "Bærum", "Lørenskog"],
+    "Price_NOK": [5000000, 7000000, 4500000]
+}
+
+df = pd.DataFrame(data)
+
+print("\nHousing Data:")
+print(df)
+
+print("\nAverage Price:")
+print(df["Price_NOK"].mean())
+
+print("\nHighest Price:")
+print(df["Price_NOK"].max())
+
+print("\nLowest Price:")
+print(df["Price_NOK"].min())import pandas as pd
+
+data = {
+    "Area": ["Oslo", "Bærum", "Lørenskog"],
+    "Price_NOK": [5000000, 7000000, 4500000]
+}
+
+df = pd.DataFrame(data)
+
+print(df)
